@@ -1,5 +1,4 @@
-//chrystal will do this no!
-//I want FOOD!!
+//chrystal will do this
 #include <cstdio>
 #include <getopt.h> // to parse long arguments.
 #include <string>
