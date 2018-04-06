@@ -1,4 +1,4 @@
-//anamika will do this//
+//anamika will do this  HELLO
 #include <cstdio>   // printf
 #include <cstdlib>  // rand
 #include <time.h>   // time
