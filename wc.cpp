@@ -73,6 +73,22 @@ int main(int argc, char *argv[])
 	}
 
 	/* TODO: write me... */
+	 string input;
+  cout << "Enter a string: ";
+  getline(cin,input);
+  int spaces=1;
+  
+  for(int i=0; i < input.length(); i++)
+  {
+      if(input[i] == ' ')
+      {
+        spaces++;
+      }
+  }
+  
+  cout<<"\nThere are " << spaces << " words in this string" << endl;
+ 
+	
 
 	return 0;
 }
