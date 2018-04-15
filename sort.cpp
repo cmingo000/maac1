@@ -61,6 +61,55 @@ int main(int argc, char *argv[]) {
 	}
 
 	/* TODO: write me... */
-
-	return 0;
+if (descending==1){
+	string n;
+if (ignorecaseee==1){
+	set <string, igncaseComp> my;
+	string n;
+	while (getline(cin,n)){
+		my.insert(n);
+	}
+	set <string>::reverse_iterator it;
+		for (it = my.rbegin(); it != my.rend(); ++it)
+			cout << *it<< endl;
 }
+else {
+	set <string> my;
+	string n;
+	while (getline(cin,n)){
+		my.insert(n);
+		
+		}
+		set <string>::reverse_iterator it;
+		for (it = my.rbegin(); it != my.rend(); ++it)
+			cout << *it<< endl;
+
+}
+}else {
+	if (ignorecase==1){
+	set <string, igncaseComp> my;
+
+	string n;
+	while (getline(cin,n)){
+		my.insert(n);
+	}
+	set <string>::iterator it;
+	for (it = my.begin(); it != my.end(); ++it)
+		cout << *it <<endl;
+	}
+	else {
+		set <string> my;
+		string n;
+		while (getline(cin,n)){
+		my.insert(n);
+	}
+	set <string>::iterator it;
+	for (it = my.begin(); it != my.end(); ++it)
+		cout << *it <<endl;
+	}
+}
+
+return 0;
+
+}
+
